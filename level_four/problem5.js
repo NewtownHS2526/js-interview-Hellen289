@@ -103,7 +103,11 @@ function hardProblem(servicePackage, age) {
     if (age === 21){
         if (servicePackage === "Royal"){
             return "can access"
+        } else {
+            return "can sign in"
         }
+    } else {
+        return "go home"
     }
 }
 
